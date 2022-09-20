@@ -1,13 +1,13 @@
-class Students{
+class Students {
   String? name;
   late int age;
-  static String institute= 'MZC';
+  static String institute = 'MZC';
 
-  void show (){
+  void show() {
     String course = 'MCA';
     print('student course     :$course');
   }
-
+}
  void main (){
     Students student1 = Students();
     print('name       :${student1.name = 'Adithya'}');
@@ -15,4 +15,3 @@ class Students{
     print('institute  :${Students.institute}');
     student1.show();
  }
-}
