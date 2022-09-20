@@ -22,5 +22,10 @@ void main (){
   print('Brand           :${Mobiles.brand}');
   phone1.show();
   print('*************************************');
+  Mobiles phone2 =Mobiles();
+  print('model           :${phone2.model = "Redmi 7"}');
+  print('Ram             :${phone2.ram = 16} GB');
+  print('Brand           :${Mobiles.brand}');
+  phone2.show();
 
 }
