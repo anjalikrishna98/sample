@@ -14,4 +14,9 @@ class Students {
     print('age        :${student1.age = 23}');
     print('institute  :${Students.institute}');
     student1.show();
+    Students student2 =Students();
+    print('name       :${student2.name = 'Anjali'}');
+    print('age        :${student2.age =24}');
+    print('institute  :${Students.institute}');
+    student2.show();
  }
