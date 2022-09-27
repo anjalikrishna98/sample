@@ -75,4 +75,37 @@ void main(){
   int z = 9; //1001
   print(z >> 1 ); // 1001 >> 1 =100 =1000 = 4
   print(z<< 2); // 0000 1001 << 2 =0010 01 => 0010 0100 = 36
+
+  //typecast operators
+  ///  =>  is , is! , as
+  dynamic data = 20;
+  print (data is! int);
+
+  //ternary operators
+
+  print('ternary operator');
+
+  /// syntax1 => condition ? true statement : false statement
+  /// syntax2 => expr1 ?? expr2
+  int age = 20;
+  String result = age >=18 ? 'eligible for vote' : 'not eligible' ;
+  print(result);
+
+  var username ='admin';
+  var password ='1234';
+
+  var login = ( username== 'admin' && password ==1234) ? "Login Successful" : "Login Failure";
+  print(login);
+
+/// largest of 2 nums
+  var num = 20;
+   var largest =(20>30) ? 20 : 30 ;
+   print('$largest is largest');
+ ///largest of 3
+
+   int  num1 = 4,num2 = 3, num3= 8;
+   var largest1 = (num1 > num2) ? (num1 >num3 ? num1 : num3) : (num2> num3 ? num2 : num3) ;
+   print(largest1);
+
 }
+
