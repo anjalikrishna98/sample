@@ -6,4 +6,11 @@ void main (){
     i++;                     //incre/decre counter
   }
 
+///do while
+
+  int j = 10;
+  do{
+    print(j);
+    j--;
+  }while(j>=1);
 }
